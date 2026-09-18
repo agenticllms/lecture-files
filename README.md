@@ -14,12 +14,15 @@ your-course-folder/
 
 Setup instructions: see the Week 2b setup guide on the course site.
 
-To get each day's files:
+To get each day's files, pull and then work in a copy:
 
 ```bash
 cd lecture-files
 git pull
+cd ..
+cp -r lecture-files/W03a W03a   # then open the copy, not the original
 ```
 
-Do not commit changes here; if you edit a notebook and a later pull conflicts,
-copy your version elsewhere and run `git checkout .` to reset.
+Treat this repo as read-only. Running a notebook saves outputs into it, which
+counts as a local edit and will block a future pull. If that happens:
+`git restore .` from inside lecture-files, then pull again.
