@@ -2,7 +2,7 @@
 
 Usage (mirrors the in-class demo):
 
-    from gradio_ui import GradioUI
+    from agentui import GradioUI
 
     app = GradioUI(agent, config)
     app.launch()
