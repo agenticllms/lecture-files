@@ -19,6 +19,11 @@ from .tools import TOOLS
 
 model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 
+# Local alternative — no API key needed; requires the Ollama app to be running
+# (see the Week 2a page). Comment out the line above and use:
+# from langchain_ollama import ChatOllama
+# model = ChatOllama(model="qwen3.5:4b", reasoning=False)
+
 # TODO: paste the create_agent(...) call from section 4 here.
 # Name the result `support_agent` and keep the checkpointer.
 support_agent = ...
