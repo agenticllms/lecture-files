@@ -1,3 +1,11 @@
+---
+title: Husky Tech Support
+sdk: gradio
+sdk_version: 6.27.0
+app_file: app.py
+pinned: false
+---
+
 # Husky Tech Support Agent — from notebook to project
 
 Notebooks are where you figure out what works. Projects are what you deploy.
@@ -39,3 +47,17 @@ One file per responsibility: tools (what the agent can do), prompts (what it
 should do), records (what it leaves behind), agent (wiring), app (how the
 world reaches it). This is the same layout DADA1 hands you next week — after
 today, its skeleton will look familiar.
+
+## Deploy it (Hugging Face Spaces)
+
+The block at the very top of this file is Spaces configuration; it is invisible
+on GitHub and tells Spaces to run `app.py` with Gradio.
+
+1. Create a Space at huggingface.co/new-space, SDK: Gradio.
+2. Upload this folder's contents (drag and drop under Files, or git push).
+3. Settings, then Variables and secrets: add `GOOGLE_API_KEY` as a secret.
+   It arrives as an environment variable; the code picks it up unchanged.
+4. The Space builds and serves the same UI as `python app.py`.
+
+Free Spaces sleep after about two days idle and take up to a minute to wake.
+Never put the key itself in any uploaded file.
