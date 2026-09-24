@@ -5,9 +5,14 @@ Transfer target for W03b.1 sections 4 and 8. Run from the project folder:
     python -m agent.agent
 """
 
+import logging
+
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# silence a noisy advisory warning from the Google SDK
+logging.getLogger("google_genai.models").setLevel(logging.ERROR)
 
 from langchain.agents import create_agent
 from langchain.messages import HumanMessage
