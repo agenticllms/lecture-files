@@ -48,3 +48,9 @@ if __name__ == "__main__":
     if result is not None:
         record = file_ticket(model, result)
         print("\nFiled ticket:", record)
+
+    from .tools import ESCALATIONS
+    if ESCALATIONS:
+        print("\nEscalations this session:")
+        for ticket_id, entry in ESCALATIONS.items():
+            print(f"  {ticket_id}: {entry['reason']} [{entry['status']}]")
