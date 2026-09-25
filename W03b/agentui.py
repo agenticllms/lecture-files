@@ -105,7 +105,11 @@ class GradioUI:
         return rendered
 
     # ------------------------------------------------------------------
-    def launch(self, **kwargs):
+    def interface(self):
+        """Build and return the Gradio ChatInterface without launching it.
+
+        Hosting platforms (e.g. Hugging Face Spaces) import the app file and
+        serve a module-level Gradio object themselves; expose this as `demo`."""
         interface_kwargs = dict(
             fn=self._chat,
             title=self.title,
@@ -116,5 +120,7 @@ class GradioUI:
         import inspect
         if "type" in inspect.signature(gr.ChatInterface.__init__).parameters:
             interface_kwargs["type"] = "messages"
-        demo = gr.ChatInterface(**interface_kwargs)
-        return demo.launch(**kwargs)
+        return gr.ChatInterface(**interface_kwargs)
+
+    def launch(self, **kwargs):
+        return self.interface().launch(**kwargs)

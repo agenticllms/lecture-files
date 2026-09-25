@@ -11,9 +11,13 @@ from agentui import GradioUI
 
 from agent.agent import support_agent
 
-app = GradioUI(support_agent,
-               {"configurable": {"thread_id": "web-demo"}},
-               title="Husky Tech Support")
+ui = GradioUI(support_agent,
+              {"configurable": {"thread_id": "web-demo"}},
+              title="Husky Tech Support")
+
+# Spaces imports this file and serves the module-level `demo` object itself;
+# the launch() below only runs when you start the app locally.
+demo = ui.interface()
 
 if __name__ == "__main__":
-    app.launch()
+    demo.launch()
