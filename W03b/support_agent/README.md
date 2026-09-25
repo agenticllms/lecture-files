@@ -53,7 +53,9 @@ today, its skeleton will look familiar.
 The block at the very top of this file is Spaces configuration; it is invisible
 on GitHub and tells Spaces to run `app.py` with Gradio.
 
-1. Create a Space at huggingface.co/new-space, SDK: Gradio.
+1. Create a Space at huggingface.co/new-space, SDK: Gradio, hardware: CPU basic.
+   Not ZeroGPU: that tier requires GPU-decorated code and refuses to start an
+   API-backed app like this one ("No @spaces.GPU function detected").
 2. Upload this folder's contents (drag and drop under Files, or git push).
 3. Settings, then Variables and secrets: add `GOOGLE_API_KEY` as a secret.
    It arrives as an environment variable; the code picks it up unchanged.
