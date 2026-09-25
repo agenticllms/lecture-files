@@ -9,3 +9,4 @@ python-dotenv>=1.2.3
 ipykernel>=7.3.0
 requests>=2.34.2
 gradio>=6.27.0
+langchain-openrouter>=0.2
