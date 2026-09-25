@@ -30,9 +30,10 @@ model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 # model = ChatOllama(model="qwen3.5:4b", reasoning=False)
 
 # Free hosted alternative via OpenRouter (get a key at openrouter.ai and
-# set OPENROUTER_API_KEY in .env). Same Qwen family as the Ollama option:
+# set OPENROUTER_API_KEY in .env). Free pools are shared and rate-limited:
+# fine for homework, not for live demos.
 # from langchain_openrouter import ChatOpenRouter
-# model = ChatOpenRouter(model="qwen/qwen3.8-27b:free")
+# model = ChatOpenRouter(model="google/gemma-4-31b-it:free", max_retries=4)
 
 # TODO: paste the create_agent(...) call from section 4 here.
 # Name the result `support_agent` and keep the checkpointer.
