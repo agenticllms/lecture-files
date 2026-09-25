@@ -5,3 +5,5 @@ langchain>=1.3
 langchain-google-genai>=4.0
 langgraph>=1.0
 python-dotenv>=1.0
+# uncomment if using the OpenRouter model option:
+# langchain-openrouter>=0.2

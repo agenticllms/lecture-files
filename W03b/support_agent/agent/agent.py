@@ -30,7 +30,8 @@ model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 # model = ChatOllama(model="qwen3.5:4b", reasoning=False)
 
 # Free hosted alternative via OpenRouter (get a key at openrouter.ai and
-# set OPENROUTER_API_KEY in .env). Free pools are shared and rate-limited:
+# set OPENROUTER_API_KEY in .env; uv pip install langchain-openrouter).
+# Free pools are shared and rate-limited:
 # fine for homework, not for live demos.
 # from langchain_openrouter import ChatOpenRouter
 # model = ChatOpenRouter(model="google/gemma-4-31b-it:free", max_retries=4)
