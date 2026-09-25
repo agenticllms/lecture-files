@@ -7,6 +7,7 @@ hosting platform would run; the notebook was where we figured out what to run.
 Nothing to transfer here — once agent/ is complete, this just works.
 """
 
+# This try/except block is only needed to deploy on HuggingFace Spaces
 # ZeroGPU hardware refuses to start unless it detects one @spaces.GPU function.
 # This app never needs a GPU (the model is an API call), so we register a decoy.
 # Locally the `spaces` package does not exist and this block is skipped.
