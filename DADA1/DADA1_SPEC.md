@@ -150,11 +150,13 @@ The page is the given chat UI plus one button: **Build itinerary from this conve
 
 UI polish is worth nothing here. The UI is given to you.
 
-### Submitting
+---
 
-Submit on Gradescope, choosing **GitHub** rather than uploading files, and select your repo and branch.
+## 8. Submission
 
-The first time, GitHub asks you to authorize Gradescope. On that screen, under **Repositories**, choose **"Public and private"**. The default is public-only, and if you accept it your private repo simply will not appear in Gradescope's list - with nothing to tell you why. If that happens, go to [github.com/settings/applications](https://github.com/settings/applications), click Gradescope, and grant access.
+You will submit your project on Gradescope, using the **GitHub** integration rather than uploading files. To this end, creat a new **private** repo for the assignment, and when submitting on Gradescope, select your repo and branch.
+
+The first time you use the GitHub integration on Gradescop, GitHub will ask you to authorize Gradescope. On that screen, under **Repositories**, choose **"Public and private"**. The default is public-only, and if you accept it your private repo simply will not appear in Gradescope's list - with nothing to tell you why. If that happens, go to [github.com/settings/applications](https://github.com/settings/applications), click Gradescope, and grant access.
 
 Before you submit, fill in the line at the top of your `README.md`:
 
@@ -163,6 +165,8 @@ Deployed app: <your Render URL>
 ```
 
 That is how your running app gets found and graded. Gradescope takes a snapshot of the repo at submission time, so pushing after the deadline changes nothing.
+
+It's of great importance that you make sure the repo is private. You should not make the repo public at any point.
 
 ---
 
@@ -195,7 +199,7 @@ endpoint cannot replace `find_attractions`.
 
 ---
 
-## 8. Getting started
+## 9. Getting started
 
 1. **Write `get_weather` first, and print the raw JSON before you parse it.** Call it on `"Boston"`, then on `"Cambridge"`, then on a date two months out. Those three calls contain most of this assignment.
 2. **Then the four search tools**, and test each one directly — `print(find_restaurants.invoke({"city": "Boston", "budget": "cheap"}))` — before you give any of them to the agent. Most agent bugs are tool bugs. Study the APIs carefully.
@@ -203,3 +207,31 @@ endpoint cannot replace `find_attractions`.
 4. **Deploy early, not on Saturday.** A deploy that works on Thursday is a deploy you can debug.
 
 **Office hours:** bring your prompt log, not "it doesn't work."
+
+---
+
+## 10. Using AI assistance
+
+You may use a coding agent on this assignment. You are building one; pretending you
+would not use one would be strange.
+
+The bundle includes an **`AGENTS.md`** file. Claude Code, Cursor, Copilot and most
+other coding agents read it automatically when it sits at the root of the folder
+you have open, so keep it where it is and open `DADA1/` as your project. It tells
+the agent to work as a tutor rather than an author.
+
+**What it asks the agent to do**
+
+- Send you to the lecture notebooks first. Almost everything mechanical here —
+  `@tool`, `create_agent`, `InMemorySaver`, `with_structured_output` — you already
+  built in W02b and W03a/b, and those notebooks are public at
+  [github.com/agenticllms/lecture-files](https://github.com/agenticllms/lecture-files).
+  An agent that re-explains W03a.2 from scratch is wasting your time and cutting
+  you off from your own course.
+- Explain the APIs properly. Reading what Open-Meteo, Tavily and Ticketmaster
+  actually return is most of this assignment, and getting help with it is fine.
+- Explain code step by step, in pieces you write yourself.
+
+**What it asks the agent not to do**
+
+Write the code fully for you.
