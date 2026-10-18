@@ -1,0 +1,17 @@
+# What the deployed app needs. Local work may also use Ollama, the embedding
+# backup; it does not run on Render.
+langchain>=1.3
+langchain-core>=1.6
+langchain-community>=0.4
+langchain-text-splitters>=1.1
+langchain-pinecone>=0.2
+pinecone>=7.3
+langchain-google-genai>=4.3
+langchain-ollama>=1.1
+langgraph>=1.2
+pydantic>=2.12
+python-dotenv>=1.2
+requests>=2.34
+rank-bm25>=0.2
+gradio>=6.27
+cohere>=7.2

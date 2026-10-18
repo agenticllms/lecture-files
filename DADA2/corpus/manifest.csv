@@ -1,0 +1,28 @@
+file,ticker,company,cik,section,fiscal_year,filing_date,form_type,chars,source_url
+NVDA_2026_business.txt,NVDA,NVIDIA CORP,1045810,business,2026,2026-02-25,10-K,40725,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+NVDA_2026_risk_factors.txt,NVDA,NVIDIA CORP,1045810,risk_factors,2026,2026-02-25,10-K,114960,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+NVDA_2026_mdna.txt,NVDA,NVIDIA CORP,1045810,mdna,2026,2026-02-25,10-K,34300,https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+NVDA_2025_business.txt,NVDA,NVIDIA CORP,1045810,business,2025,2025-02-26,10-K,39515,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+NVDA_2025_risk_factors.txt,NVDA,NVIDIA CORP,1045810,risk_factors,2025,2025-02-26,10-K,110930,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+NVDA_2025_mdna.txt,NVDA,NVIDIA CORP,1045810,mdna,2025,2025-02-26,10-K,37952,https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
+NVDA_2024_business.txt,NVDA,NVIDIA CORP,1045810,business,2024,2024-02-21,10-K,35585,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm
+NVDA_2024_risk_factors.txt,NVDA,NVIDIA CORP,1045810,risk_factors,2024,2024-02-21,10-K,106933,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm
+NVDA_2024_mdna.txt,NVDA,NVIDIA CORP,1045810,mdna,2024,2024-02-21,10-K,40400,https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm
+AMD_2025_business.txt,AMD,ADVANCED MICRO DEVICES INC,2488,business,2025,2026-02-04,10-K,59905,https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm
+AMD_2025_risk_factors.txt,AMD,ADVANCED MICRO DEVICES INC,2488,risk_factors,2025,2026-02-04,10-K,131886,https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm
+AMD_2025_mdna.txt,AMD,ADVANCED MICRO DEVICES INC,2488,mdna,2025,2026-02-04,10-K,37683,https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm
+AMD_2024_business.txt,AMD,ADVANCED MICRO DEVICES INC,2488,business,2024,2025-02-05,10-K,57263,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+AMD_2024_risk_factors.txt,AMD,ADVANCED MICRO DEVICES INC,2488,risk_factors,2024,2025-02-05,10-K,126073,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+AMD_2024_mdna.txt,AMD,ADVANCED MICRO DEVICES INC,2488,mdna,2024,2025-02-05,10-K,32866,https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm
+AMD_2023_business.txt,AMD,ADVANCED MICRO DEVICES INC,2488,business,2023,2024-01-31,10-K,65035,https://www.sec.gov/Archives/edgar/data/2488/000000248824000012/amd-20231230.htm
+AMD_2023_risk_factors.txt,AMD,ADVANCED MICRO DEVICES INC,2488,risk_factors,2023,2024-01-31,10-K,125680,https://www.sec.gov/Archives/edgar/data/2488/000000248824000012/amd-20231230.htm
+AMD_2023_mdna.txt,AMD,ADVANCED MICRO DEVICES INC,2488,mdna,2023,2024-01-31,10-K,35254,https://www.sec.gov/Archives/edgar/data/2488/000000248824000012/amd-20231230.htm
+MU_2026_business.txt,MU,MICRON TECHNOLOGY INC,723125,business,2026,2026-10-09,10-K,40785,https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm
+MU_2026_risk_factors.txt,MU,MICRON TECHNOLOGY INC,723125,risk_factors,2026,2026-10-09,10-K,118696,https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm
+MU_2026_mdna.txt,MU,MICRON TECHNOLOGY INC,723125,mdna,2026,2026-10-09,10-K,40168,https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm
+MU_2025_business.txt,MU,MICRON TECHNOLOGY INC,723125,business,2025,2025-10-03,10-K,42438,https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+MU_2025_risk_factors.txt,MU,MICRON TECHNOLOGY INC,723125,risk_factors,2025,2025-10-03,10-K,102656,https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+MU_2025_mdna.txt,MU,MICRON TECHNOLOGY INC,723125,mdna,2025,2025-10-03,10-K,41340,https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm
+MU_2024_business.txt,MU,MICRON TECHNOLOGY INC,723125,business,2024,2024-10-04,10-K,38942,https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm
+MU_2024_risk_factors.txt,MU,MICRON TECHNOLOGY INC,723125,risk_factors,2024,2024-10-04,10-K,91665,https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm
+MU_2024_mdna.txt,MU,MICRON TECHNOLOGY INC,723125,mdna,2024,2024-10-04,10-K,37851,https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm

@@ -1,0 +1,114 @@
+[
+ {
+  "question": "What does MU state that the preparation of financial statements and related disclosures in conformity with U.S. GAAP requires management to do in its FY2024 10-K?",
+  "reference": "The preparation of financial statements and related disclosures requires management to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues, expenses, and related disclosures.",
+  "gold_file": "MU_2024_business.txt",
+  "ticker": "MU",
+  "fiscal_year": 2024,
+  "section": "business"
+ },
+ {
+  "question": "What termination fee is AMD required to pay ZT Systems under certain circumstances related to the failure to obtain required regulatory approvals according to the FY2024 10-K?",
+  "reference": "AMD would be required to pay ZT Systems a termination fee of $300 million if the purchase agreement is terminated in certain circumstances related to the failure to obtain required regulatory approvals.",
+  "gold_file": "AMD_2024_risk_factors.txt",
+  "ticker": "AMD",
+  "fiscal_year": 2024,
+  "section": "risk_factors"
+ },
+ {
+  "question": "What factors does NVIDIA believe are the principal competitive factors in its market for fiscal year 2025?",
+  "reference": "NVIDIA believes the principal competitive factors in its market are performance, breadth of product offerings, access to customers and partners and distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs.",
+  "gold_file": "NVDA_2025_business.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2025,
+  "section": "business"
+ },
+ {
+  "question": "What competitive pressures from Intel and Nvidia did AMD face in fiscal year 2025 that could affect its market share and margins?",
+  "reference": "Intel used its microprocessor market position to aggressively price products and offer special incentives to AMD customers and channel partners, while Nvidia leveraged its data center GPU market position, financial resources, and proprietary software ecosystem to promote its systems and influence mutual customers.",
+  "gold_file": "AMD_2025_risk_factors.txt",
+  "ticker": "AMD",
+  "fiscal_year": 2025,
+  "section": "risk_factors"
+ },
+ {
+  "question": "What forms the basis for AMD's estimates and judgments used in preparing its Consolidated Financial Statements for fiscal year 2025?",
+  "reference": "AMD bases its estimates on historical experience and on various other assumptions that it believes to be reasonable under the circumstances.",
+  "gold_file": "AMD_2025_mdna.txt",
+  "ticker": "AMD",
+  "fiscal_year": 2025,
+  "section": "mdna"
+ },
+ {
+  "question": "What financial charge did NVIDIA incur in fiscal year 2026 due to export requirements for its H20 product, and what was the cause?",
+  "reference": "NVIDIA incurred a $4.5 billion charge in the first quarter of fiscal year 2026 for excess inventory and purchase obligations associated with its H20 product after the USG required an export license, causing demand to diminish.",
+  "gold_file": "NVDA_2026_mdna.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2026,
+  "section": "mdna"
+ },
+ {
+  "question": "What risks might Micron Technology, Inc. face in fiscal year 2025 as it streamlines its product portfolio?",
+  "reference": "As Micron Technology, Inc. streamlines its product portfolio, it may face execution risks that could impact its ability to support demand and maintain share in certain markets.",
+  "gold_file": "MU_2025_risk_factors.txt",
+  "ticker": "MU",
+  "fiscal_year": 2025,
+  "section": "risk_factors"
+ },
+ {
+  "question": "What target markets does NVIDIA include in its business for fiscal year 2024?",
+  "reference": "NVIDIA's target markets include Data Center, Gaming, Professional Visualization, and Automotive.",
+  "gold_file": "NVDA_2024_business.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2024,
+  "section": "business"
+ },
+ {
+  "question": "What potential impacts could additional unilateral or multilateral export controls on GPUs and AI technologies have on NVDA in fiscal year 2026, according to the risk factors?",
+  "reference": "Additional export controls could be very broad in scope, prohibit NVDA from exporting products to customers in one or more markets, negatively impact manufacturing, testing, and warehousing locations, limit the ability to serve demand abroad, and materially impact the business, revenue, and financial results.",
+  "gold_file": "NVDA_2026_risk_factors.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2026,
+  "section": "risk_factors"
+ },
+ {
+  "question": "How did NVDA's sales to China change as a percentage of total Data Center revenue from fiscal year 2023 to fiscal year 2024?",
+  "reference": "NVDA's sales to China decreased as a percentage of total Data Center revenue from 19% in fiscal year 2023 to 14% in fiscal year 2024.",
+  "gold_file": "NVDA_2024_mdna.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2024,
+  "section": "mdna"
+ },
+ {
+  "question": "What was the aggregate amount of common stock MU repurchased through August 28, 2025, under its authorization in fiscal year 2025?",
+  "reference": "Through August 28, 2025, MU had repurchased an aggregate of $7.19 billion of its common stock under the repurchase authorization.",
+  "gold_file": "MU_2025_mdna.txt",
+  "ticker": "MU",
+  "fiscal_year": 2025,
+  "section": "mdna"
+ },
+ {
+  "question": "What platform did NVIDIA launch and scale in fiscal year 2026?",
+  "reference": "In fiscal year 2026, NVIDIA launched and scaled the NVIDIA Blackwell Ultra platform, which is optimized for agentic, reasoning, and physical AI.",
+  "gold_file": "NVDA_2026_business.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2026,
+  "section": "business"
+ },
+ {
+  "question": "How are government incentives related to the acquisition or construction of property, plant, and equipment recognized by Micron (MU) in fiscal year 2026?",
+  "reference": "They are recognized as a reduction in the carrying amounts of the related assets and as a reduction of subsequent depreciation expense over the useful lives of the assets.",
+  "gold_file": "MU_2026_business.txt",
+  "ticker": "MU",
+  "fiscal_year": 2026,
+  "section": "business"
+ },
+ {
+  "question": "What potential risks does NVIDIA face in its investment portfolio for fiscal year 2025 according to the risk factors?",
+  "reference": "NVIDIA faces risks including volatility in results, potential losses up to the value of investments in publicly traded companies, the possibility of recognizing impairments or losing part of or all of its investment in unsuccessful companies, and industry sector concentration risks that could increase impairment losses.",
+  "gold_file": "NVDA_2025_risk_factors.txt",
+  "ticker": "NVDA",
+  "fiscal_year": 2025,
+  "section": "risk_factors"
+ }
+]

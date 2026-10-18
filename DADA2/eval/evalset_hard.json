@@ -1,0 +1,83 @@
+[
+ {
+  "question": "How has NVIDIA's exposure to export controls changed over the last three years?",
+  "gold_files": [
+   "NVDA_2024_risk_factors.txt",
+   "NVDA_2025_risk_factors.txt",
+   "NVDA_2026_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "Which of these companies treat dependence on a small number of customers as a risk?",
+  "gold_files": [
+   "NVDA_2026_risk_factors.txt",
+   "AMD_2025_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "What do they say about relying on third-party foundries to manufacture their chips?",
+  "gold_files": [
+   "NVDA_2026_risk_factors.txt",
+   "AMD_2025_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "How do AMD and Micron each describe competition in their most recent filings?",
+  "gold_files": [
+   "AMD_2025_risk_factors.txt",
+   "MU_2026_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "Is anyone worried about China?",
+  "gold_files": [
+   "NVDA_2026_risk_factors.txt",
+   "AMD_2025_risk_factors.txt",
+   "MU_2026_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "What does Micron say about memory pricing and how it moves?",
+  "gold_files": [
+   "MU_2025_mdna.txt",
+   "MU_2026_mdna.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "How did data centre demand affect results year over year?",
+  "gold_files": [
+   "NVDA_2025_mdna.txt",
+   "NVDA_2026_mdna.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "What risks do they flag around intellectual property?",
+  "gold_files": [
+   "NVDA_2026_risk_factors.txt",
+   "AMD_2025_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "How does AMD describe what its business actually sells?",
+  "gold_files": [
+   "AMD_2025_business.txt"
+  ],
+  "kind": "comparative"
+ },
+ {
+  "question": "What are the concerns about attracting and keeping staff?",
+  "gold_files": [
+   "NVDA_2026_risk_factors.txt",
+   "MU_2026_risk_factors.txt"
+  ],
+  "kind": "comparative"
+ }
+]

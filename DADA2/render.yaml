@@ -1,0 +1,21 @@
+# Render Blueprint. New + > Blueprint, point it at your repo, and it reads this.
+services:
+  - type: web
+    name: sec-filings-agent
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13"
+      - key: EMBEDDINGS          # same as locally; ollama-built indexes work too
+        value: cloudflare
+      - key: GOOGLE_API_KEY
+        sync: false              # you type these in the dashboard, once
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: CLOUDFLARE_API_TOKEN
+        sync: false
+      - key: COHERE_API_KEY
+        sync: false
