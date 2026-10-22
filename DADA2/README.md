@@ -38,6 +38,9 @@ ADD YOUR NAME TO YOUR RENDER PROJECT SO THE LINK CAN BE PERSONALIZED.
 
 PLEASE ENSURE YOUR URL WORKS BY TESTING IT IN INCOGNITO MODE.
 
+### WHAT TO SUBMIT
+Upload the entire project folder (DADA2) via GitHub integration on Canvas
+
 ### Write-up
 
 Paste the write-up from notebook 04 (TODO 4.3) here, under the same five
