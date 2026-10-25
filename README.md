@@ -27,3 +27,12 @@ cp -r lecture-files/W03a W03a   # then open the copy, not the original
 Treat this repo as read-only. Running a notebook saves outputs into it, which
 counts as a local edit and will block a future pull. If that happens:
 `git restore .` from inside lecture-files, then pull again.
+
+## Completed notebooks
+
+`completed/` has each day's notebooks as they were run in class, with their
+outputs. Copy a day out the same way and work in the copy:
+
+```bash
+cp -r lecture-files/completed/W03a W03a-completed
+```
