@@ -1,0 +1,13 @@
+langchain>=1.4
+langchain-core>=1.7
+langgraph>=1.2
+deepagents>=0.7.32
+langchain-daytona>=0.0.9
+langchain-google-genai>=4.4
+langchain-ollama>=1.1
+langchain-openai>=1.6
+langchain-anthropic>=1.7
+pydantic>=2.12
+python-dotenv>=1.2
+certifi
+gradio>=6.27

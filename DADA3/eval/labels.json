@@ -1,0 +1,42 @@
+{
+  "1": {
+    "label": "bug",
+    "file": "huskyutils/text.py"
+  },
+  "2": {
+    "label": "bug",
+    "file": "huskyutils/money.py"
+  },
+  "3": {
+    "label": "not_a_bug",
+    "file": "huskyutils/text.py"
+  },
+  "4": {
+    "label": "bug",
+    "file": "huskyutils/dates.py"
+  },
+  "5": {
+    "label": "bug",
+    "file": "huskyutils/intervals.py"
+  },
+  "6": {
+    "label": "bug",
+    "file": "huskyutils/shipping.py"
+  },
+  "7": {
+    "label": "enhancement",
+    "file": "huskyutils/shipping.py"
+  },
+  "8": {
+    "label": "bug",
+    "file": "huskyutils/stats.py"
+  },
+  "9": {
+    "label": "not_a_bug",
+    "file": "huskyutils/shipping.py"
+  },
+  "10": {
+    "label": "bug",
+    "file": "huskyutils/cards.py"
+  }
+}

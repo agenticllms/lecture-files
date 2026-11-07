@@ -1,0 +1,85 @@
+{
+  "repo": "huskyutils",
+  "issues": [
+    {
+      "number": 1,
+      "title": "Slugs have double hyphens and a hyphen at the end",
+      "user": "store-frontend",
+      "body": "The product page for \"Hello, World! T-shirt\" got the URL `/p/hello--world--t-shirt`, and \"Webcam (HD)\" got `/p/webcam--hd-`.\n\n```python\n>>> from huskyutils.text import slugify\n>>> slugify(\"Webcam (HD)\")\n'webcam--hd-'\n```\n\nI expected `webcam-hd`.",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 2,
+      "title": "Shared payment loses a cent",
+      "user": "checkout-team",
+      "body": "Three friends split a $10.00 order and the charges were $3.33 each. That is $9.99, so one cent was never charged.\n\n```python\n>>> split_amount(1000, 3)\n[333, 333, 333]\n```\n\nSuggested fix: add the leftover cents to the last person's share, which is how our point-of-sale system does it.",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 3,
+      "title": "word_count says \"don't stop\" is 2 words",
+      "user": "reviews-moderator",
+      "body": "\"don't\" is short for \"do not\", so \"don't stop\" should be 3 words. Our review length limit is too generous because of this.\n\n```python\n>>> word_count(\"don't stop\")\n2\n```",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 4,
+      "title": "Delivery date skips over the weekend wrong",
+      "user": "warehouse-ops",
+      "body": "An order placed on Thursday 2026-11-05 with 3 business days of handling shows a delivery date of Monday 2026-11-09. Thursday plus 3 business days is Friday, Monday, Tuesday, so it should be Tuesday 2026-11-10.\n\n```python\n>>> add_business_days(date(2026, 11, 5), 3)\ndatetime.date(2026, 11, 9)\n```",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 5,
+      "title": "Delivery windows overlap after merging",
+      "user": "store-frontend",
+      "body": "The checkout page shows overlapping delivery windows to customers.\n\n```python\n>>> merge_intervals([[8, 10], [1, 3], [2, 6]])\n[[8, 10], [1, 6]]\n```\n\nI expected `[[1, 6], [8, 10]]`. It looks like it only works when the windows are already in order.",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 6,
+      "title": "A 1 kg package is charged $9 shipping",
+      "user": "checkout-team",
+      "body": "Our shipping table says packages up to and including 1 kg ship for $5.00. A package that weighs exactly 1 kg was charged $9.00.\n\n```python\n>>> shipping_cost(1)\n900\n```",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 7,
+      "title": "Free shipping for orders over $50",
+      "user": "marketing",
+      "body": "Can we make shipping free when the order total is over $50? Most stores do this now and we think it would increase the average order size.",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 8,
+      "title": "Median on the sales dashboard is wrong for an even number of days",
+      "user": "analytics",
+      "body": "For a store open 4 days with daily sales 10, 20, 30, 40 the dashboard shows a median of 30. The median of four numbers is the average of the middle two, 25.\n\n```python\n>>> median([10, 20, 30, 40])\n30\n```",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 9,
+      "title": "5 kg package should be in the heavy tier",
+      "user": "warehouse-ops",
+      "body": "A 5 kg package is charged $9.00 shipping. Packages of 5 kg are heavy and should cost $11.00 like the others above 5 kg.\n\n```python\n>>> shipping_cost(5)\n900\n```",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 10,
+      "title": "Product card description runs past the edge of the card",
+      "user": "store-frontend",
+      "body": "Product cards fit 30 characters of description, and we call `truncate(description, 30)`. The headphones card overflows:\n\n```python\n>>> s = truncate(\"Wireless noise-cancelling headphones with case\", 30)\n>>> s\n'Wireless noise-cancelling head...'\n>>> len(s)\n33\n```\n\nThe result should fit in 30 characters.",
+      "state": "open",
+      "labels": []
+    }
+  ]
+}
