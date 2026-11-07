@@ -4,6 +4,19 @@ Every software team keeps a list of open issues: reports from people who use the
 
 In this assignment you will build a team of agents that works through the open issues of a small Python repository and writes a report for its maintainer. One agent in the team is a deep agent that runs code in a sandbox, as in W09b.2, and checks every fix before the report calls it verified. Then you will measure whether the team does better than one deep agent doing the whole job alone, using tests that neither of them has seen.
 
+## Getting the files
+
+The bundle is the `DADA3` folder in the lecture-files repository. Pull it and copy it out, the same way you copy a class day's files:
+
+```bash
+cd lecture-files
+git pull
+cd ..
+cp -r lecture-files/DADA3 DADA3   # then work in the copy, not the original
+```
+
+You submit your copy as a GitHub repository of your own (section 5), so make it one: run `git init` inside your `DADA3` folder and push it to a new repository on GitHub. The bundle's `.gitignore` keeps `.env` out of it.
+
 ## 1. The repository
 
 `huskyutils` is a small library of helper functions used in the Husky Tech store from earlier assignments: shipping prices, splitting a payment, delivery dates, slugs and descriptions for product pages, and a median for the sales dashboard. It is in `repo/` in this bundle. It is pure Python, so it runs in a sandbox with no network and nothing to install.
