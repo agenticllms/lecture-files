@@ -1,0 +1,4 @@
+.env
+__pycache__/
+results/*/failures.csv
+.pytest_cache/
